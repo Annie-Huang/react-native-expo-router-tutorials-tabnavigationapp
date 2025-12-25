@@ -8,9 +8,9 @@ const TabsLayout = () => {
 
   return (
     <Tabs>
-      <Tabs.Screen name='index' />
-      <Tabs.Screen name='explore' />
-      <Tabs.Screen name='profile' />
+      <Tabs.Screen name='index' options={{ tabBarLabel: 'Home' }} />
+      <Tabs.Screen name='explore' options={{ tabBarLabel: 'Explore' }} />
+      <Tabs.Screen name='profile' options={{ tabBarLabel: 'My Profile' }} />
     </Tabs>
   );
 };
