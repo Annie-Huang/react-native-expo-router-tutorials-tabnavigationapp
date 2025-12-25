@@ -11,6 +11,8 @@ const TabsLayout = () => {
       screenOptions={{
         // tabBarLabelPosition: 'beside-icon', // generally for tablets
         tabBarLabelPosition: 'below-icon',
+        // tabBarShowLabel: false,
+        // headerTitle: 'Recipes App', // tab page will use the same title.
       }}
     >
       <Tabs.Screen
