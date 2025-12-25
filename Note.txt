@@ -8,3 +8,6 @@ https://github.com/Annie-Huang/react-native-expo-router-tutorials-tabnavigationa
 ------------------------------------------------------------------------------------------------
 
 PS C:\react> npx create-expo-app@latest react-native-expo-router-tutorials-tabnavigationapp
+
+PS C:\react\react-native-expo-router-tutorials-tabnavigationapp> npm run reset-project
+Do you want to move existing files to /app-example instead of deleting them? (Y/n): n
