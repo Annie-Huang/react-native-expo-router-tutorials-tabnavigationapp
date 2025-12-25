@@ -7,7 +7,12 @@ const TabsLayout = () => {
   // return <Tabs />;
 
   return (
-    <Tabs>
+    <Tabs
+      screenOptions={{
+        // tabBarLabelPosition: 'beside-icon', // generally for tablets
+        tabBarLabelPosition: 'below-icon',
+      }}
+    >
       <Tabs.Screen
         name='index'
         options={{
