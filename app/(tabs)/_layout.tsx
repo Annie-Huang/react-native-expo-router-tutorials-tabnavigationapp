@@ -15,6 +15,7 @@ const TabsLayout = () => {
           tabBarIcon: ({ color }) => (
             <FontAwesome name='home' color={color} size={24} />
           ),
+          title: 'Home',
         }}
       />
       <Tabs.Screen
@@ -24,6 +25,7 @@ const TabsLayout = () => {
           tabBarIcon: ({ color }) => (
             <FontAwesome name='search' color={color} size={24} />
           ),
+          title: 'Explore',
         }}
       />
       <Tabs.Screen
@@ -34,6 +36,7 @@ const TabsLayout = () => {
             <FontAwesome name='user' color={color} size={24} />
           ),
           tabBarBadge: 3,
+          title: 'Profile',
         }}
       />
     </Tabs>
