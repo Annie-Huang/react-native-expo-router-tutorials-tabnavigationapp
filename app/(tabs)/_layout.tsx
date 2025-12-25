@@ -13,6 +13,17 @@ const TabsLayout = () => {
         tabBarLabelPosition: 'below-icon',
         // tabBarShowLabel: false,
         // headerTitle: 'Recipes App', // tab page will use the same title.
+
+        // styling:
+        tabBarActiveTintColor: '#22d3ee',
+        tabBarInactiveTintColor: '#94a3b8',
+        tabBarStyle: {
+          backgroundColor: '#0f172a',
+        },
+        headerStyle: {
+          backgroundColor: '#0f172a',
+        },
+        headerTintColor: '#f8fafc',
       }}
     >
       <Tabs.Screen
