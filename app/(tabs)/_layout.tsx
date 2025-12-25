@@ -33,6 +33,7 @@ const TabsLayout = () => {
           tabBarIcon: ({ color }) => (
             <FontAwesome name='user' color={color} size={24} />
           ),
+          tabBarBadge: 3,
         }}
       />
     </Tabs>
