@@ -5,7 +5,7 @@ import { Text, View, StyleSheet } from 'react-native';
 const Profile = () => {
   return (
     <View style={styles.container}>
-      <Text>Profile</Text>
+      <Text>Create your own recipes</Text>
     </View>
   );
 };

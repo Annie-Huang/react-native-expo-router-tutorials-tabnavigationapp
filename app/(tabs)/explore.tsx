@@ -5,7 +5,7 @@ import { Text, View, StyleSheet } from 'react-native';
 const Explore = () => {
   return (
     <View style={styles.container}>
-      <Text>Explore</Text>
+      <Text>Find your favorite recipes</Text>
     </View>
   );
 };
